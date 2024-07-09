@@ -339,6 +339,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    padding: 10px;
 }
 
 .target-css {
@@ -349,6 +350,7 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    padding: 10px;
 }
 
 .target-js {
@@ -359,4 +361,73 @@ body {
     flex-direction: column;
     justify-content: center;
     gap: 10px;
+    padding: 10px;
+}
+
+/* Support Section */
+.support-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.support-section-container {
+    width: 90%;
+    background-image:linear-gradient(
+        0deg,
+        rgb(16, 16, 16) -19.5%,
+        rgba(16, 16, 16, 0) 100%
+      ), url(../assets/handshake.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.support-text {
+    color: rgb(255, 255, 255);
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.suggest-submit {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    gap: 20px;
+}
+
+.suggest-text input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+}
+
+.suggest-submit button {
+    width: 150px;
+    height: 64px;
+    border-radius: 8px;
+    background: rgb(255, 255, 255);
 }
