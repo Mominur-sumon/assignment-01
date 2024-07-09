@@ -2,6 +2,7 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+
 body {
     font-family: "Azeret Mono", monospace;
 }
@@ -10,4 +11,229 @@ body {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+
+/* Nav section */
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 50px;
+}
+
+.nav-text {
+    width: 50%;
+    margin-left: 75px;
+
+}
+
+.nav-text h1 {
+    font-size: 35px;
+}
+
+.nav-resume {
+    width: 228px;
+    height: 58px;
+    border: 1px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 100px;
+    margin-bottom: 20px;
+}
+
+.nav-resume input {
+    width: 100%;
+    height: 100%;
+    color: rgb(13, 19, 33);
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.header-section {
+    width: 1440px;
+    height: 652px;
+    margin: 0 auto;
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+}
+
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.header-image {
+    width: 320px;
+    height: 320px;
+    margin-bottom: 25px;
+    margin-top: 26px;
+
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+
+.header-text h2 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.header-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    width: 266px;
+    height: 66px;
+    background: rgb(13, 19, 33);
+}
+
+.header-contact input {
+    width: 100%;
+    height: 100%;
+    color: white;
+    background: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Why Web Development section style */
+
+.web-dev-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    margin: 0 auto;
+    margin-top: 30px;
+    background: rgba(13, 19, 33, 0.02);
+}
+
+.web-dev-section-container {
+    width: 90%;
+    margin: 80px 97px;
+}
+
+.web-dev-text {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.web-dev-text h2 {
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.web-dev-text p {
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.web-dev-image {
+    width: 90%;
+    margin: 40px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.web-dev-image1-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.web-dev-image1-image {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+
+.web-dev-image2-image {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+
+}
+
+.web-dev-image2-text {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    gap: 20px;
+}
+
+.heading {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.details {
+    font-size: 16px;
+    font-weight: 400;
+}
+.learn-more-button{
+    width: 150px;
+    height: 48px;
+    border: 2px solid rgb(13, 19, 33);
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px 20px;
+}
+.web-dev-image .learn-more-button{
+    margin-right: 550px;
+}
+.learn-more-button a{
+    text-decoration: none;
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 600;
 }
