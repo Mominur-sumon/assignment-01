@@ -58,7 +58,7 @@ body {
 /* Header Section CSS */
 .header-section {
     width: 1440px;
-    height: 652px;
+    height: 640px;
     margin: 0 auto;
     background-image: url(../assets/Hero-bg.png);
     background-size: cover;
