@@ -90,10 +90,15 @@ body {
     margin-bottom: 15px;
 }
 
+
 .header-text h2 {
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 20px;
+    text-align: center;
+}
+.header-text p {
+    text-align: center;
 }
 
 .header-contact {
@@ -159,6 +164,7 @@ body {
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 400;
+    text-align: center;
 }
 
 .web-dev-image {
@@ -276,6 +282,9 @@ body {
     margin-bottom: 10px;
     gap: 20px;
 }
+.inspiration-text p{
+    text-align: center;
+}
 
 .inspiration-source {
     width: 100%;
@@ -323,6 +332,9 @@ body {
     align-items: center;
     margin: 0 auto;
     gap: 20px;
+}
+.current-target-container .target-text p{
+    text-align: center;
 }
 .target-link a{
     color: rgb(13, 19, 33);
@@ -403,6 +415,10 @@ body {
     margin: 0 auto;
     gap: 20px;
 }
+.next-target-container p{
+    text-align: center;
+
+}
 .next-target-tech{
     width: 90%;
     display: flex;
@@ -475,6 +491,9 @@ body {
     margin: 0 auto;
     gap: 20px;
 }
+.support-text p{
+    text-align: center;
+}   
 
 .suggest-submit {
     width: 60%;
